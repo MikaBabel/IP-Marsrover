@@ -84,8 +84,8 @@ Wichtig: Jeder Ultraschallsensor soll sein eigenes Topic haben!
 Es sollte möglich sein, erstelle Räume über das Launch File zu starten. Zur Zeit funktioniert das mit dem spawn_entity Node in Option 1
 ## Anleitung: Umgebungen (Räume, Landschaften, Objekte) in Gazebo importieren
 ### Schritt 1: Umgebungsordner herunterladen
-1.Laden Sie eine der verfügbaren Umgebungen aus dem Umgebung-Ordner herunter.
-2.Alternativ können Sie kompatible Modelle aus dem Internet beziehen (siehe Hinweise).
+1. Laden Sie eine der verfügbaren Umgebungen aus dem Umgebung-Ordner herunter.
+2. Alternativ können Sie kompatible Modelle aus dem Internet beziehen (siehe Hinweise).
 ### Schritt 2: Umgebungsordner in Gazebo einbinden
 Kopieren Sie den heruntergeladenen Ordner in den Gazebo-Model-Pfad:
 ## Option 1
