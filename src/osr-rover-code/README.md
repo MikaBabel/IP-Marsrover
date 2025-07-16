@@ -19,3 +19,6 @@ The setup directory contains tutorial files for getting everything setup and con
 
 * [Raspberry Pi setup](setup/rpi.md)
 * [Rover code bringup](setup/rover_bringup.md)
+
+
+
