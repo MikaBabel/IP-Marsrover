@@ -76,10 +76,29 @@ Tobias
 
    - ### Venv
      Damit Python die richtigen Packages vom Venv nimmt, musste in einigen Dateien das Venv explizit angegeben werden.
-     
+     Falls es spätere Probleme mit dem venv environment gibt sollte diese Code Zeile in den folgenden Dateien auskommentiert werden: <br>
+     venv_path = '/home/rover/osr_ws/venv/bin/activate_this.py'<br>
+     with open(venv_path) as f: <br>
+	   exec(f.read(),{'__file__':venv_path})
+      
+     Dateien:
+     osr_launch.py, ina_260_pub.py
 
       
   - Simulation
   - 
 3. Probleme
+  - ### INA260
+    <img width="391" height="368" alt="Bildschirmfoto 2025-07-16 um 11 06 26" src="https://github.com/user-attachments/assets/b3c1cbb0-a2ee-405b-815d-cdcb2510ee11" /> <br>
+    Beim überprüfen des ina260 über test_ina260.py war die Adresse nicht auf 0x45 sondern auf 0x40. <br>
+    Diese Adresse wurde dann in den folgenden Dateien geändert:
+    ~/osr_ws/venv/lib/python3.10/site-packages/ina260
+    /osr_ws/build/osr_control/osr_control$ nano ina_260_pub.py
+
+    Beim starten des Rovers über die osr_launch.py gibt es einen INA260 I/O Error.<br>
+    Das Fahren des Rovers funktioniert auch mit diesem Fehler.
+    Die Fehlerquelle ist hier unbekannt.
+    
+    
+    
 5. Next Steps / deren Aufgaben
