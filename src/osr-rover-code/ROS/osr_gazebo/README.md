@@ -88,11 +88,27 @@ Es sollte möglich sein, erstelle Räume über das Launch File zu starten. Zur Z
 2. Alternativ können Sie kompatible Modelle aus dem Internet beziehen (siehe Hinweise).
 ### Schritt 2: Umgebungsordner in Gazebo einbinden
 Kopieren Sie den heruntergeladenen Ordner in den Gazebo-Model-Pfad:
+```python
+/home/<IHR_BENUTZERNAME>/.gazebo/models/
+```
+### Schritt 3: Umgebung in Gazebo einfügen
+1. Starten Sie Gazebo.
+2. Klicken Sie links oben auf "Insert".
+3. Wählen Sie die gewünschte Umgebung aus der Liste aus.
+4. Platzieren Sie das Modell per Drag & Drop in der Simulation.
+### Hinweise für externe Modelle
+Falls Sie Modelle aus dem Internet verwenden, stellen Sie sicher, dass:
+1. Die 3D-Modelldatei die Endung .dae (Collada) oder .stl besitzt.
+2. Der Ordner die erforderlichen Konfigurationsdateien enthält:
+2.1 model.sdf (Modellbeschreibung)
+2.1 model.config (Metadaten)
+3. Fehlen diese Dateien, können Sie sie manuell erstellen oder ein bestehendes Modell anpassen.
+    
 ## Option 1
 Alles über Launchdatei Laden. Die Beste Option
 ### Ansatz 1
 Eine spawn_entity benutzen, um Raum zusätzlich zum Rover zu spawnen. Das hat funktioniert. So wird der Rover geladen wie es vorgesehen ist, und der Raum unabhängig davon gesetzt.
-    /home/<IHR_BENUTZERNAME>/.gazebo/models/
+
 
 ```python
  # Spawnen des Raums, -file String muss noch dynamisch geladen werden!!!
