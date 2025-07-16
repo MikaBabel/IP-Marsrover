@@ -98,7 +98,7 @@ Kopieren Sie den heruntergeladenen Ordner in den Gazebo-Model-Pfad:
 
 ### Hinweis: Umgebungen aus dem Internet herunterladen
 Falls du eine Umgebung aus dem Internet verwendest, beachte folgende Punkte:
-Die 3D-Modelldatei die Endung .dae besitzt.
+Die 3D-Modelldatei die Endung ".dae" besitzt.
 Der Ordner muss zusätzlich die Dateien model.sdf und model.config enthalten.
 Falls diese Dateien fehlen, kannst du sie auch selbst erstellen und anpassen.
 
