@@ -45,7 +45,7 @@ Nach diesen Schritten kann der Rover mit den Tasten , link buttonbelegung, geste
 
 ## Unsere Arbeit
 Dieser Abschnitt soll ein Versändnis und Einstiegspunkt für weitere Gruppen bieten.
-  - Pi Aufsetzen
+  - Pi Aufsetzen etc
      - Betriebssystem: Ubutnu
       - welche Schritte beendet
       - Wie ist Konfig -> Addressen, Ausrichtung der Servos
