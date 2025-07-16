@@ -82,6 +82,56 @@ Wichtig: Jeder Ultraschallsensor soll sein eigenes Topic haben!
 
 # Laden Objekte wie Räume oder Landschaften
 Es sollte möglich sein, erstelle Räume über das Launch File zu starten. Zur Zeit funktioniert das mit dem spawn_entity Node in Option 1
+Schritt 1: Umgebungsordner herunterladen
+
+    Laden Sie eine der verfügbaren Umgebungen aus dem Umgebung-Ordner herunter.
+
+    Alternativ können Sie kompatible Modelle aus dem Internet beziehen (siehe Hinweise).
+
+Schritt 2: Umgebungsordner in Gazebo einbinden
+
+    Kopieren Sie den heruntergeladenen Ordner in den Gazebo-Model-Pfad:
+    bash
+
+    /home/<IHR_BENUTZERNAME>/.gazebo/models/
+
+    (Ersetzen Sie <IHR_BENUTZERNAME> durch Ihren Linux-Benutzernamen.)
+
+Schritt 3: Umgebung in Gazebo einfügen
+
+    Starten Sie Gazebo.
+
+    Klicken Sie links oben auf "Insert".
+
+    Wählen Sie die gewünschte Umgebung aus der Liste aus.
+
+    Platzieren Sie das Modell per Drag & Drop in der Simulation.
+
+Hinweise für externe Modelle
+
+Falls Sie Modelle aus dem Internet verwenden, stellen Sie sicher, dass:
+
+    Die 3D-Modelldatei die Endung .dae (Collada) oder .stl besitzt.
+
+    Der Ordner die erforderlichen Konfigurationsdateien enthält:
+
+        model.sdf (Modellbeschreibung)
+
+        model.config (Metadaten)
+
+    Fehlen diese Dateien, können Sie sie manuell erstellen oder ein bestehendes Modell anpassen.
+
+Troubleshooting
+
+    Modell erscheint nicht?
+
+        Prüfen Sie, ob der Ordner im richtigen models-Verzeichnis liegt.
+
+        Starten Sie Gazebo neu, falls nötig.
+
+    Texturen fehlen oder werden nicht geladen?
+
+        Stellen Sie sicher, dass alle Texturdateien (z. B. .png, .jpg) im Modellordner vorhanden sind.
 ## Option 1
 Alles über Launchdatei Laden. Die Beste Option
 ### Ansatz 1
