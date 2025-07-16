@@ -1,5 +1,5 @@
 ## Startup Rovers
-Zum Starten und Fahren des Rovers sind die folgenden Schritte notwendig
+Durch diesen Abschnitt wird die Inbetriebnahme des Rovers und die dazu nötigen Schritte beschrieben.
 ### Hotspot Erstellen
 Um den Respberry Pi des Rovers über SSH anzusteuern, muss ein Hotspot mit den folgenden Daten erstellt werden:
 
@@ -40,9 +40,11 @@ Nach erfolgreicher Erstanmeldung dann über:
    
       ssh rover@marsrover
       Passwort: mars
+### Rover steuern
+Nach diesen Schritten kann der Rover mit den Tasten , link buttonbelegung, gesteuert werden
 
-
-5. Was haben wir geschafft
+## Unsere Arbeit
+Dieser Abschnitt soll ein Versändnis und Einstiegspunkt für weitere Gruppen bieten.
   - Pi Aufsetzen
      - Betriebssystem: Ubutnu
       - welche Schritte beendet
