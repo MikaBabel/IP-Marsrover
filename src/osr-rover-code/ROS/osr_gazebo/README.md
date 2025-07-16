@@ -85,25 +85,23 @@ Es sollte möglich sein, erstelle Räume über das Launch File zu starten. Zur Z
 ## Anleitung: Umgebungen (Räume, Landschaften, Objekte) in Gazebo importieren
 ### Schritt 1: Umgebungsordner herunterladen
 1. Laden Sie eine der verfügbaren Umgebungen aus dem Umgebung-Ordner herunter.
-2. Alternativ können Sie kompatible Modelle aus dem Internet beziehen (siehe Hinweise).
+2. Alternativ können Sie kompatible Modelle aus dem Internet beziehen.
 ### Schritt 2: Umgebungsordner in Gazebo einbinden
 Kopieren Sie den heruntergeladenen Ordner in den Gazebo-Model-Pfad:
 ```python
 /home/<IHR_BENUTZERNAME>/.gazebo/models/
 ```
 ### Schritt 3: Umgebung in Gazebo einfügen
-1. Starten Sie Gazebo.
-2. Klicken Sie links oben auf "Insert".
-3. Wählen Sie die gewünschte Umgebung aus der Liste aus.
-4. Platzieren Sie das Modell per Drag & Drop in der Simulation.
-### Hinweise für externe Modelle
-Falls Sie Modelle aus dem Internet verwenden, stellen Sie sicher, dass:
-1. Die 3D-Modelldatei die Endung .dae (Collada) oder .stl besitzt.
-2. Der Ordner die erforderlichen Konfigurationsdateien enthält:
-2.1 model.sdf (Modellbeschreibung)
-2.1 model.config (Metadaten)
-3. Fehlen diese Dateien, können Sie sie manuell erstellen oder ein bestehendes Modell anpassen.
-    
+1. Starte die Simulation in Gazebo.
+2. Klicke links oben auf „Insert“.
+3. Dort findest du die importierten Umgebungen, die du einfach per Klick in die Simulation einfügen kannst.
+
+### Hinweis: Umgebungen aus dem Internet herunterladen
+Falls du eine Umgebung aus dem Internet verwendest, beachte folgende Punkte:
+Die 3D-Modelldatei die Endung .dae besitzt.
+Der Ordner muss zusätzlich die Dateien model.sdf und model.config enthalten.
+Falls diese Dateien fehlen, kannst du sie auch selbst erstellen und anpassen.
+
 ## Option 1
 Alles über Launchdatei Laden. Die Beste Option
 ### Ansatz 1
